@@ -1,0 +1,57 @@
+<html>
+<head>
+	<title>Economia verde</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style_bibliografie.css">
+<body>
+	<div id="top_nav">
+		<div id="left_title">
+			<a href="index.html">Economia
+			<span style="font-weight:bold">Verde</a>
+		</div>
+		<div id="navigation_bar">
+			<ul>
+				<li><a href="index.html">Acasa</a>
+				<li><a href="concept.html">Concept</a>
+				<li><a href="afaceri.html">Afaceri verzi</a>
+				<li><a href="bibliografie.html">Bibliografie</a>
+			</ul>
+		</div>
+	</div>
+	<div id="green_line_one">
+	</div>
+	<div id="quote">
+		<p id="quo">"O persoana careia ii pasa de Pamant va rezona cu puritatea acestuia"
+		<p id="auth"> - Sally Fox
+	</div>
+	<div id="green_line_two">
+	</div>
+	<div id="header">
+		<img id="header_image" src="header_one.png" width="1000px" height="400px">
+		<script type="text/javascript">
+		var image=document.getElementById("header_image");
+		var currentPos = 0;
+		var images=["header_one.png","header_two.png","header_three.png"];
+
+		function changeHeader(){
+			if (++currentPos >= images.length) currentPos = 0;
+			image.src = images[currentPos];
+		}
+		setInterval(changeHeader, 2000);
+		</script>
+	</div>
+	<div id="green_line_two">
+	</div>
+	<div id="text">
+		<h2>Bibliografie
+		<ul>
+			<li><p id="link_bio"> http://www.economia-verde.ro
+		</ul>
+	</div>
+	<div id="footer">
+		<img id="footer_image" src="green_utm.png" width="150px" height="150px" />
+		<p id="footer_first_line">©2017 Universitatea Titu Maiorescu
+		<p id="footer_second_line">Dumitru Marius-Daniel - Administrarea afacerilor
+	</div>
+</body>
+</html>

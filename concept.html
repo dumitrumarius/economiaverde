@@ -1,0 +1,64 @@
+<html>
+<head>
+	<title>Economia verde</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style_concept.css">
+<body>
+	<div id="top_nav">
+		<div id="left_title">
+			<a href="index.html">Economia
+			<span style="font-weight:bold">Verde</a>
+		</div>
+		<div id="navigation_bar">
+			<ul>
+				<li><a href="index.html">Acasa</a>
+				<li><a href="concept.html">Concept</a>
+				<li><a href="afaceri.html">Afaceri verzi</a>
+				<li><a href="bibliografie.html">Bibliografie</a>
+			</ul>
+		</div>
+	</div>
+	<div id="green_line_one">
+	</div>
+	<div id="quote">
+		<p id="quo">"Realitatea suprema a vremurilor noastre este ...vulnerabilitatea planetei noastre."
+		<p id="auth"> - John F. Kennedy
+	</div>
+	<div id="green_line_two">
+	</div>
+	<div id="header">
+		<img id="header_image" src="header_two.png" width="1000px" height="400px">
+		<script type="text/javascript">
+		var image=document.getElementById("header_image");
+		var currentPos = 0;
+		var images=["header_two.png","header_three.png","header_one.png"];
+
+		function changeHeader(){
+			if (++currentPos >= images.length) currentPos = 0;
+			image.src = images[currentPos];
+		}
+		setInterval(changeHeader, 2000);
+		</script>
+	</div>
+	<div id="green_line_two">
+	</div>
+	<div id="text">
+		<h2>Concept
+		<p id="first_line">Economia verde, asa cum este definita de recentul Raport al Programului Natiunilor Unite pentru Mediu <span id="green">(lansat in februarie 2011)</span>, are ca rezultat<p id="minus_top_margin"> îmbunatatire bunastarii si echitatii sociale, concomitent cu reducerea semnificativa a riscurilor de mediu si deficitului ecologic. Tranzitia spre o economie verde înseamna politici si investitii care vor decupla cresterea economica de cresterea consumului curent intensiv de materii prime si energie. O economie verde poate fi gândita ca o economie cu emisii reduse, prin utilizarea eficienta si durabila a resurselor si asigurarea incluziunii sociale. Într-o economie verde, cresterea veniturilor si ocuparea fortei de munca ar trebui sa fie impulsionate de catre investitiile publice si private ce reduc emisiile de carbon si poluarea, sporesc eficienta energetica si eficienta resurselor, si previn pierderea biodiversitatii si a serviciilor ecosistemelor.
+		<p style="margin-left:25px"><span id="bold">Karl Burkart</span> defineste o economie verde ca fiind bazata pe sase sectoare principale:
+		<p style="margin-left:40px">1.Energie regenerabila (solara, eoliana etc.);
+		<p style="margin-left:40px">2.Constructii “<span id="green">verzi</span>" (ex. constructii <span id="green">LEED</span> – <span id="green">Leadership in Energy and Environmental Design</span>);
+		<p style="margin-left:40px">3.Combustibili alternativi (vehicule electrice, hibride sau combustbili alternativi);
+		<p style="margin-left:40px">4.Managementul apei (epurarea apelor, sisteme de colectare a apei de ploaie etc.);
+		<p style="margin-left:40px">5.Managementul deseurilor (<span id="green">reciclare</span>, depozitare etc.);
+		<p style="margin-left:40px">6.Managementul teritorial (incluzând agricultura organica, conservarea habitatelor, împaduriri la nivel urban-parcuri, reîmpaduriri si stabilizarea terenurilor).
+        <p style="margin-left:25px">De asemenea exista si cea de a 7-a categorie ce poarta denumirea de "piete verzi" si include piete precum <span id="italic"> "green banking and</span><p><span id="italic">financial investment services"</span> - servicii bancare si de investitii verzi; <span id="italic">"carbon trading"</span> - comertul cu carbon s.a.</p>
+        <img src="earth.png" id="earth_image"/>
+	</div>
+	<div id="footer">
+		<img id="footer_image" src="green_utm.png" width="150px" height="150px" />
+		<p id="footer_first_line">©2017 Universitatea Titu Maiorescu
+		<p id="footer_second_line">Dumitru Marius-Daniel - Administrarea afacerilor
+	</div>
+</body>
+</html>
